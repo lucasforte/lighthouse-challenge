@@ -1,0 +1,24 @@
+.page-header {
+  width: 100%;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .page-header__breadcrumb {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    p {
+      color: #a3a5a8;
+      font-size: 0.9rem;
+    }
+    span {
+      color: #143c8d;
+      font-weight: 500;
+      font-size: 1.2rem;
+    }
+  }
+}
