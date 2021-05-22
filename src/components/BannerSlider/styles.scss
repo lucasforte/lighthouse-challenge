@@ -19,15 +19,31 @@
   .slick-slider {
     height: 100%;
 
-    .slick-arrow {
-      z-index: 1;
-      &.slick-prev {
-        left: 20px;
+    .custom-arrow {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 50%;
+      z-index: 2;
+      background-color: #d5d5d5;
+
+      svg {
+        color: #939393;
+        font-size: 2.2rem;
       }
-      &.slick-next {
+
+      &.custom-arrow--next {
         right: 20px;
       }
+      &.custom-arrow--prev {
+        left: 20px;
+      }
     }
+
     .slick-dots {
       bottom: 20px;
       li {
