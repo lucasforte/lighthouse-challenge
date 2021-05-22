@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/lighthouse-challenge/static/css/main.5ff31616.chunk.css",
+    "main.js": "/lighthouse-challenge/static/js/main.d23ac729.chunk.js",
+    "main.js.map": "/lighthouse-challenge/static/js/main.d23ac729.chunk.js.map",
+    "runtime-main.js": "/lighthouse-challenge/static/js/runtime-main.e983fa8f.js",
+    "runtime-main.js.map": "/lighthouse-challenge/static/js/runtime-main.e983fa8f.js.map",
+    "static/css/2.a7ffadf6.chunk.css": "/lighthouse-challenge/static/css/2.a7ffadf6.chunk.css",
+    "static/js/2.ab8e8873.chunk.js": "/lighthouse-challenge/static/js/2.ab8e8873.chunk.js",
+    "static/js/2.ab8e8873.chunk.js.map": "/lighthouse-challenge/static/js/2.ab8e8873.chunk.js.map",
+    "index.html": "/lighthouse-challenge/index.html",
+    "static/css/2.a7ffadf6.chunk.css.map": "/lighthouse-challenge/static/css/2.a7ffadf6.chunk.css.map",
+    "static/css/main.5ff31616.chunk.css.map": "/lighthouse-challenge/static/css/main.5ff31616.chunk.css.map",
+    "static/js/2.ab8e8873.chunk.js.LICENSE.txt": "/lighthouse-challenge/static/js/2.ab8e8873.chunk.js.LICENSE.txt",
+    "static/media/product-image.6d5ca3e0.png": "/lighthouse-challenge/static/media/product-image.6d5ca3e0.png",
+    "static/media/slick-theme.css": "/lighthouse-challenge/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e983fa8f.js",
+    "static/css/2.a7ffadf6.chunk.css",
+    "static/js/2.ab8e8873.chunk.js",
+    "static/css/main.5ff31616.chunk.css",
+    "static/js/main.d23ac729.chunk.js"
+  ]
+}
