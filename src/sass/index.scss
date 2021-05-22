@@ -4,6 +4,10 @@
   font-family: "Ubuntu", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #root {
   padding: 0 3rem;
 }

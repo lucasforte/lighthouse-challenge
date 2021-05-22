@@ -5,19 +5,22 @@ import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 import "./styles.scss";
 
-function CustomNextArrow() {
+function CustomNextArrow(props: { onClick?: () => void }) {
+  const { onClick } = props;
   return (
-    <div className="custom-arrow custom-arrow--next">
+    <button className="custom-arrow custom-arrow--next" onClick={onClick}>
       <FiChevronRight />
-    </div>
+    </button>
   );
 }
 
-function CustomPrevArrow() {
+function CustomPrevArrow(props: { onClick?: () => void }) {
+  const { onClick } = props;
+
   return (
-    <div className="custom-arrow custom-arrow--prev">
+    <button className="custom-arrow custom-arrow--prev" onClick={onClick}>
       <FiChevronLeft />
-    </div>
+    </button>
   );
 }
 

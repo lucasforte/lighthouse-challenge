@@ -2,7 +2,7 @@ import "./styles.scss";
 
 const Presentation = () => {
   return (
-    <main className="page-presentation">
+    <main id="presentation" className="page-presentation">
       <h1>Lorem Ipsum sit dat met agader lirium</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
