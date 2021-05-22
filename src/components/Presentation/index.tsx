@@ -1,5 +1,12 @@
+import "./styles.scss";
+
 const Presentation = () => {
-  return <div></div>;
+  return (
+    <main className="page-presentation">
+      <h1></h1>
+      <p></p>
+    </main>
+  );
 };
 
 export default Presentation;
