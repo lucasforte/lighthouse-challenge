@@ -23,12 +23,13 @@ li {
   font-weight: 600;
   padding: 0.5rem 2.5rem;
   border: none;
-  border-radius: 20px;
+  border-radius: 30px;
   &.btn--back {
     border: 1px solid #385a9e;
     color: #385a9e;
   }
   &.btn--confirm {
+    padding: 0.8rem 2.5rem;
     background-color: #65a48b;
     color: #fff;
   }
