@@ -8,9 +8,24 @@ body {
   background-color: #e4e9f2;
 }
 
+ul,
+li {
+  list-style: none;
+}
+
 .btn {
+  background: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem 2.5rem;
+  border: none;
+  border-radius: 20px;
   &.btn--back {
+    border: 1px solid #385a9e;
+    color: #385a9e;
   }
   &.btn--confirm {
+    background-color: #65a48b;
+    color: #fff;
   }
 }

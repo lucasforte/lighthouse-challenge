@@ -1,0 +1,55 @@
+.banner-slider {
+  width: 100%;
+  height: 350px;
+
+  .dummy-banner-item {
+    width: 100%;
+    height: 350px;
+    &.dummy-banner-item--red {
+      background-color: red;
+    }
+    &.dummy-banner-item--green {
+      background-color: green;
+    }
+    &.dummy-banner-item--blue {
+      background-color: blue;
+    }
+  }
+
+  .slick-slider {
+    height: 100%;
+
+    .slick-arrow {
+      z-index: 1;
+      &.slick-prev {
+        left: 20px;
+      }
+      &.slick-next {
+        right: 20px;
+      }
+    }
+    .slick-dots {
+      bottom: 20px;
+      li {
+        &.slick-active {
+          button {
+            &:before {
+              opacity: 1;
+              background: #4fc0e0;
+            }
+          }
+        }
+        button {
+          &:before {
+            content: "";
+            width: 15px;
+            height: 15px;
+            opacity: 1;
+            background: #dadada;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+}
