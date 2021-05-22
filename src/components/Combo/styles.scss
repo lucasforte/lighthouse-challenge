@@ -1,0 +1,26 @@
+.page-combo {
+  .combo-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    h2,
+    a {
+      color: #385a9e;
+      font-style: italic;
+    }
+    h2 {
+      font-weight: 600;
+      font-size: 2rem;
+    }
+    a {
+      font-size: 1.5rem;
+      text-decoration: underline;
+    }
+  }
+  .combo-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

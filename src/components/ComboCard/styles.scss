@@ -1,0 +1,114 @@
+.combo-card {
+  background: #fff;
+  padding: 2rem 3rem 1rem;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  .combo-card__image {
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+  .combo-card__product-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 0.5rem;
+    p {
+      font-size: 1.2rem;
+      font-style: italic;
+      font-weight: 500;
+      color: #385a9e;
+    }
+    span {
+      font-size: 0.7rem;
+      color: #8d8d8d;
+      text-transform: uppercase;
+      font-weight: 600;
+      text-align: center;
+    }
+  }
+  .combo-card__shipping {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: #f66715;
+    svg {
+      font-size: 1.3rem;
+      margin: 0 auto;
+    }
+    p {
+      font-size: 0.8rem;
+      span {
+        font-weight: 600;
+        font-style: italic;
+      }
+    }
+  }
+  .combo-card__price {
+    .price {
+      color: #385a9e;
+      opacity: 0.8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: 600;
+      position: relative;
+      &::before {
+        content: "";
+        width: 170%;
+        height: 2px;
+        background: red;
+        position: absolute;
+      }
+
+      .price__currency,
+      .price__cents {
+        position: absolute;
+        font-size: 0.7rem;
+      }
+      .price__currency {
+        bottom: 0.3rem;
+        left: -0.4rem;
+        font-weight: 400;
+      }
+      .price__cents {
+        top: 0.3rem;
+        right: -0.6rem;
+      }
+
+      &.price--promotional {
+        opacity: 1;
+        font-size: 2rem;
+        &:before {
+          content: none;
+        }
+
+        .price__currency,
+        .price__cents {
+          font-size: 1.1rem;
+        }
+
+        .price__currency {
+          left: -1.2rem;
+          font-weight: 400;
+        }
+        .price__cents {
+          right: -1.5rem;
+        }
+      }
+    }
+  }
+  .payment-option {
+    color: #828282;
+    font-size: 0.9rem;
+  }
+}
